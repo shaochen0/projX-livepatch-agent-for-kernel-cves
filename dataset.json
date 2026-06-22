@@ -1,0 +1,629 @@
+{
+  "schema_version": "1.0",
+  "name": "kpatch-rewrite-benchmark",
+  "target_kernel": "6.6.102-5.2.alnx4.x86_64",
+  "source_branch": "cloud-kernel/devel-6.6",
+  "target_tag": "6.6.102-5.2",
+  "generated_at": "2026-06-22T09:53:26+08:00",
+  "case_count": 44,
+  "selection": {
+    "years": [
+      "2025",
+      "2026"
+    ],
+    "requires_downstream_devel_fix": true,
+    "requires_not_in_target_tag": true,
+    "requires_kpatch_limitation": true,
+    "requires_rewrite_bypass": true,
+    "requires_build_success": true
+  },
+  "cases": [
+    {
+      "cve_id": "CVE-2025-21739",
+      "path": "cases/CVE-2025-21739",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-02-27",
+      "limitations": [
+        "exported-symbol",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "0d64c7d46cca2a50c0c65d7b4cde441fa13c8894"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-37920",
+      "path": "cases/CVE-2025-37920",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-05-20",
+      "limitations": [
+        "data-structure",
+        "header-wide",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "5054a33f470df0606206a7454bef2426286f3ed1"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-38104",
+      "path": "cases/CVE-2025-38104",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-04-18",
+      "limitations": [
+        "data-structure",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "fb4cd07e457412abf21d7789bf5e9e9568efaa79"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-38584",
+      "path": "cases/CVE-2025-38584",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-08-19",
+      "limitations": [
+        "data-structure",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "5211ed403c772b7eba7bc83f0f0af0a8537404dc"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-38683",
+      "path": "cases/CVE-2025-38683",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-09-04",
+      "limitations": [
+        "data-structure",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "3d219e3463f7434610e1319598bcd73ba266ea55"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-39764",
+      "path": "cases/CVE-2025-39764",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-09-11",
+      "limitations": [
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "2bdf4d47b5afe7b4847317b36aa4c80db43c1734"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-39828",
+      "path": "cases/CVE-2025-39828",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-09-16",
+      "limitations": [
+        "data-structure",
+        "static-data",
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "b4e1043fca9eadf3a787bcb996fc19cd1fd19d85"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-39964",
+      "path": "cases/CVE-2025-39964",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-10-13",
+      "limitations": [
+        "data-structure",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "2aa5b09f9141b60b4f53872613af6a7f4fcd7769"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-40049",
+      "path": "cases/CVE-2025-40049",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-10-28",
+      "limitations": [
+        "data-structure"
+      ],
+      "downstream_commits": [
+        "9de19d51c282c602270b6b108e297c776c4dbe9b"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-40083",
+      "path": "cases/CVE-2025-40083",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-10-29",
+      "limitations": [
+        "exported-symbol",
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "1ecc21f9be696ace789f31db3e48a44628c4b962"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-40123",
+      "path": "cases/CVE-2025-40123",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-11-12",
+      "limitations": [
+        "data-structure",
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "20fcb4e9aa794a1633e212a5b54db08a8549e46e"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-40206",
+      "path": "cases/CVE-2025-40206",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-11-12",
+      "limitations": [
+        "static-data"
+      ],
+      "downstream_commits": [
+        "b2b25344e06b8d004aa638b7fae09f2f3234209b"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-68211",
+      "path": "cases/CVE-2025-68211",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-12-16",
+      "limitations": [
+        "static-data"
+      ],
+      "downstream_commits": [
+        "fefacfe4fe3fa0214ee09a14dc3e00237ef374d7"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-68358",
+      "path": "cases/CVE-2025-68358",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2025-12-24",
+      "limitations": [
+        "data-structure",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "807a2cdc3a12446f5124076f7bbbf986c2e2ecc1"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-68816",
+      "path": "cases/CVE-2025-68816",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-01-13",
+      "limitations": [
+        "data-structure"
+      ],
+      "downstream_commits": [
+        "9746584f9c130cf992343b065715c05adf421e76"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-71077",
+      "path": "cases/CVE-2025-71077",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-01-13",
+      "limitations": [
+        "data-structure",
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "f8540312e68d686130a6e726febccc8036806afd"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-71144",
+      "path": "cases/CVE-2025-71144",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-01-14",
+      "limitations": [
+        "data-structure",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "0b1fe4ff9756ca5f2e5c9d7a2dde79e757ef4dcb"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-71160",
+      "path": "cases/CVE-2025-71160",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-01-23",
+      "limitations": [
+        "data-structure",
+        "header-wide",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "5d795f86a32b82053aa68a268c07766bd14d98bd"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-22980",
+      "path": "cases/CVE-2026-22980",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-01-23",
+      "limitations": [
+        "data-structure"
+      ],
+      "downstream_commits": [
+        "aef560257896aa5ef310f315747f9e1733dde958"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-23004",
+      "path": "cases/CVE-2026-23004",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-01-25",
+      "limitations": [
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "0e6d8f9f0145116bc0a4fe3e709928c601aca21c"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-23053",
+      "path": "cases/CVE-2026-23053",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-02-04",
+      "limitations": [
+        "static-data",
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "5318d71de027c700c1a68ba05a4d1782659266b5"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-23056",
+      "path": "cases/CVE-2026-23056",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-02-04",
+      "limitations": [
+        "static-data"
+      ],
+      "downstream_commits": [
+        "b3cefd26a057fa8a6747871449a85e13ad141e91"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-23126",
+      "path": "cases/CVE-2026-23126",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-02-14",
+      "limitations": [
+        "data-structure"
+      ],
+      "downstream_commits": [
+        "b498e7dc449b29677730c2c49adaa23b0ce3aaa9"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-23230",
+      "path": "cases/CVE-2026-23230",
+      "severity": "HIGH",
+      "cvss_score": 8.8,
+      "published_date": "2026-02-18",
+      "limitations": [
+        "data-structure"
+      ],
+      "downstream_commits": [
+        "e57b26548c603dee9efd43dfdcf0432d29143597"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-23340",
+      "path": "cases/CVE-2026-23340",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-03-25",
+      "limitations": [
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "c79ca03eb32df57f73be1cfec3f2c46b54748dfa"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-23351",
+      "path": "cases/CVE-2026-23351",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-03-25",
+      "limitations": [
+        "data-structure"
+      ],
+      "downstream_commits": [
+        "5b50dd73ddb22278ba6662bfb813fe12f85f058b"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-23412",
+      "path": "cases/CVE-2026-23412",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-04-02",
+      "limitations": [
+        "static-data"
+      ],
+      "downstream_commits": [
+        "aa8807aa178dab3b6ec701d46aa22a4b4f900930"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-31403",
+      "path": "cases/CVE-2026-31403",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-04-03",
+      "limitations": [
+        "static-data",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "84781ca5230dd01959d25246d3dc59b6c6964fe7"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-31446",
+      "path": "cases/CVE-2026-31446",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-04-22",
+      "limitations": [
+        "data-structure"
+      ],
+      "downstream_commits": [
+        "c12c3bf2511530ae6b8372acde91a30939d532c1"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-31453",
+      "path": "cases/CVE-2026-31453",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-04-22",
+      "limitations": [
+        "header-wide",
+        "static-data"
+      ],
+      "downstream_commits": [
+        "4ef4eb58eaa7fb58e68bba139660db33fd907def"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-31488",
+      "path": "cases/CVE-2026-31488",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-04-22",
+      "limitations": [
+        "data-structure",
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "056e888ea6ca7dc29b16c719d5eb47a363fb3ea8"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-31507",
+      "path": "cases/CVE-2026-31507",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-04-22",
+      "limitations": [
+        "static-data"
+      ],
+      "downstream_commits": [
+        "94d6b927734bfa1ffe5d729486c7f9a270561c71"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-31665",
+      "path": "cases/CVE-2026-31665",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-04-24",
+      "limitations": [
+        "data-structure",
+        "header-wide",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "9805952e2136c8e981ac76b2ad31a8f444b7f3ec"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-43050",
+      "path": "cases/CVE-2026-43050",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-05-01",
+      "limitations": [
+        "data-structure",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "3629d0710eaef8c56657eb36c6e9474c69f08720"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-43117",
+      "path": "cases/CVE-2026-43117",
+      "severity": "CRITICAL",
+      "cvss_score": 9.1,
+      "published_date": "2026-05-06",
+      "limitations": [
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "4f6680b998824bc7442f864d7d3c7e0616d74c4c"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-43215",
+      "path": "cases/CVE-2026-43215",
+      "severity": "HIGH",
+      "cvss_score": 8.8,
+      "published_date": "2026-05-06",
+      "limitations": [
+        "static-data",
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "b72886df9bd1ae7ad9af3f6c20efe163358a8bca"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-43277",
+      "path": "cases/CVE-2026-43277",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-05-06",
+      "limitations": [
+        "data-structure",
+        "header-wide",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "081e006f44e25674b513b2c1a1e556cfae44fd25"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-43468",
+      "path": "cases/CVE-2026-43468",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-05-08",
+      "limitations": [
+        "data-structure",
+        "header-wide",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "a6137ed884b83c96561ffee8e009ac5e0af727fd"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-45860",
+      "path": "cases/CVE-2026-45860",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "published_date": "2026-05-27",
+      "limitations": [
+        "data-structure",
+        "header-wide",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "ab3db5e8f3dd7b73d708c9d2cbae35e761acec2a"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-45957",
+      "path": "cases/CVE-2026-45957",
+      "severity": "UNKNOWN",
+      "cvss_score": null,
+      "published_date": "2026-05-27",
+      "limitations": [
+        "data-structure",
+        "header-wide",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "8732b08b417f615b1f39452df72b4c71fefdb663"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-46065",
+      "path": "cases/CVE-2026-46065",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "published_date": "2026-05-27",
+      "limitations": [
+        "data-structure"
+      ],
+      "downstream_commits": [
+        "2058fdba26555d0731b22953bfd7e46bf79f12a6"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-46152",
+      "path": "cases/CVE-2026-46152",
+      "severity": "HIGH",
+      "cvss_score": 8.8,
+      "published_date": "2026-05-28",
+      "limitations": [
+        "static-data",
+        "static-local"
+      ],
+      "downstream_commits": [
+        "5bd154562d0b9449c86073748497a4a879cab33b"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-46218",
+      "path": "cases/CVE-2026-46218",
+      "severity": "HIGH",
+      "cvss_score": 7.1,
+      "published_date": "2026-05-28",
+      "limitations": [
+        "header-wide"
+      ],
+      "downstream_commits": [
+        "f7e903b5b937e3a5228919aad8ad718875abd1a6"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-46333",
+      "path": "cases/CVE-2026-46333",
+      "severity": "HIGH",
+      "cvss_score": 7.1,
+      "published_date": "2026-05-15",
+      "limitations": [
+        "data-structure",
+        "header-wide",
+        "dynamic-data-semantic"
+      ],
+      "downstream_commits": [
+        "89c2b577150941bf57543d3c4bb41f745e561bfb"
+      ]
+    }
+  ]
+}
